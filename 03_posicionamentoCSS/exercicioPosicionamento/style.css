@@ -1,0 +1,45 @@
+body {
+  background: gray;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  margin: 60px;
+  width: 100px;
+}
+
+.navegacao {
+  display: grid;
+  grid-template-columns: repeat(4, 120px);
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.navegacao a {
+  text-decoration: none;
+  background: white;
+  text-align: center;
+  padding: 10px;
+  color: black;
+}
+
+.containerGrid {
+  display: grid;
+  grid-template-columns: 500px 500px;
+  justify-content: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+.infoProduto,
+.detalhesProduto {
+  background: white;
+}
