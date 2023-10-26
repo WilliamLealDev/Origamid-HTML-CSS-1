@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 50px;
+}
+
+.colorOrange {
+  color: #febe01;
+}
+
+.container {
+  border-radius: 4px;
+  background: #111;
+  padding: 30px;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 70px;
+}
+h2 {
+  color: white;
+  margin-top: 0px;
+}
+
+p {
+  color: #b2b2b2;
+}
+
+a {
+  background: #febe01;
+  color: #332200;
+  padding: 10px;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 4px;
+}
