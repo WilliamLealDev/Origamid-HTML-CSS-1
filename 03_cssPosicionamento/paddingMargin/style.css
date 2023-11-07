@@ -1,0 +1,22 @@
+span {
+  display: inline-block;
+  background: #ddd;
+}
+
+span {
+  padding: 30px;
+  padding: 20px 40px;
+  padding: 40px 100px 200px 10px;
+  border: 10px solid black; /* Apenas de forma geral o widht */
+  border-width: 30px 60px; /* Pode escolher no sentido horario top - right - bottom - left */
+}
+
+h1 {
+  /* margin-block-start: 30px; em relação ao h1(se girar a margem fica na direita) */
+  margin-top: 30px; /* em relação ao documento (se girar o h1 a margem setada continua no topo do documento. */
+}
+
+.rotate {
+  margin-block-end: 80px;
+  writing-mode: vertical-rl;
+}

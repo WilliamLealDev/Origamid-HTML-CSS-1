@@ -1,0 +1,13 @@
+div {
+  height: 50vh;
+  width: calc(100vw / 2 - 100px);
+  background-color: lightblue;
+}
+
+body {
+  margin: 0px;
+}
+
+/* vh (Tela visivel em altura) e vw (tamanho de tela visivel em  largura)
+
+Podem ser realizados calculos como o de cima */

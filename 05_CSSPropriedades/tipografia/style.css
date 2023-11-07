@@ -1,0 +1,11 @@
+p {
+  font-size: 2rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: italic;
+  line-height: 1.3;
+  text-decoration: underline;
+  text-transform: capitalize; /*todas primeiras letras maisculo (pode alterar outros valores) */
+  text-indent: 5rem; /* serve para paragrafo */
+  text-align: right; /* nao recomenda o justify*/
+  text-shadow: 5px 5px;
+}
