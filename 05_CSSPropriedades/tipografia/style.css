@@ -7,5 +7,6 @@ p {
   text-transform: capitalize; /*todas primeiras letras maisculo (pode alterar outros valores) */
   text-indent: 5rem; /* serve para paragrafo */
   text-align: right; /* nao recomenda o justify*/
-  text-shadow: 5px 5px;
+  text-shadow: 0px 5px 20px gray; /* não é recomendado text-shadow */
+  letter-spacing: 0.5rem;
 }
