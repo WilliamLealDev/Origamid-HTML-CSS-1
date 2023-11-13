@@ -82,7 +82,8 @@ p {
   justify-items: end;
 }
 
-.detalhe {
+.introducao::before {
+  content: "";
   width: 60px;
   height: 4px;
   background: #e21;
@@ -97,6 +98,10 @@ p {
   padding: 15px 30px;
   border-radius: 4px;
   text-transform: uppercase;
+}
+
+.botao:hover {
+  background: darkred;
 }
 
 .subtitulo {
@@ -119,8 +124,16 @@ p {
   grid-template-columns: auto 1fr;
   gap: 10px 20px;
   padding: 20px;
+  border-left: 4px solid transparent;
 }
 
+.vantagens-item:nth-child(odd) {
+  background: #f7f7f7;
+}
+
+.vantagens-item:hover {
+  border-color: red;
+}
 .vantagens-item p {
   grid-column: 2;
 }
