@@ -1,0 +1,33 @@
+body {
+  font-size: 2rem;
+}
+
+.titulo.teste {
+  color: blue;
+}
+
+/* tendo duas classes a prioridade é 2, tendo vantagem onde for apenas 1 classe como logo abaixo */
+
+.titulo {
+  color: tomato;
+  padding: 10px;
+}
+
+#produtos {
+  color: lightgreen;
+}
+
+/* O ID é prioridade, classe secundario e Tag (body, h2, h3) terceiro */
+
+html body section h2 {
+  border-left: 8px solid lightgreen;
+} /* especifidade 0,0,4 */
+
+body section h2 {
+  border-left: 8px solid lightsalmon;
+} /* especifidade 0,0,3 */
+
+h2 {
+  color: black !important;
+  border-left: 8px solid blue !important;
+} /* important quebra tudo */
