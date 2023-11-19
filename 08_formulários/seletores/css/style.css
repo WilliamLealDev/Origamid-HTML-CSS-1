@@ -1,0 +1,40 @@
+[required] {
+  border: 2px solid tomato;
+}
+
+[href="#contato"] {
+  border: 2px solid green;
+}
+
+a[href^="#"] {
+  background: green;
+}
+
+section > h2 {
+  color: tomato;
+} /** filho direto */
+
+p {
+  margin: 0px;
+}
+
+article {
+  background: lightgreen;
+  padding: 10px;
+}
+
+/* p {
+  margin-bottom: 20px;
+} */
+
+p + p {
+  margin-top: 20px;
+}
+
+/* article p:last-child {
+  margin-bottom: 0px;
+} */
+
+* {
+  border: 2px solid red;
+}
